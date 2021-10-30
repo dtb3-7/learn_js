@@ -1,0 +1,10 @@
+"use strict";
+//let name = "John";
+
+let sayHi = function () {
+  alert("Hi, " + name);
+}
+
+let name = "Pete";
+
+sayHi(); // что будет показано: "John" или "Pete"?
